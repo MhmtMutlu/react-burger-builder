@@ -10,7 +10,6 @@ import HamburgerContextProvider, {
 ReactDOM.render(
   <React.StrictMode>
     <HamburgerContextProvider value={HamburgerContext} >
-      {/* Uygulamayı context provider ile sarmalayınız */}
       <App />
     </HamburgerContextProvider>
   </React.StrictMode>,
